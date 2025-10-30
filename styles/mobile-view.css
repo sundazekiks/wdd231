@@ -3,7 +3,7 @@
         grid-template-columns: 1fr 500px;
         grid-template-rows: auto 1fr auto;
     }
-    header a {
+    .fa-solid{
         display: none;
     }
 }
@@ -22,7 +22,7 @@
         border-radius: 10px;
     }
 
-    header a {
+    .fa-solid{
         display: none;
     }
 }
