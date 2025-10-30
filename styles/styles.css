@@ -39,8 +39,9 @@ header{
     align-items: center;
 }
 
-header a{
+header i{
     color: white;
+    cursor: pointer;
 }
 
 
