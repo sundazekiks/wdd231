@@ -5,6 +5,8 @@ let currentYear = document.getElementById('currentYear');
 let lastModified = document.getElementById('lastModified')
 let certificatesDiv = document.querySelector('.certificatesShowCase');
 let categoryBtn = document.querySelectorAll('.certificateList button');
+let hamburgerMenu = document.querySelector('.fa-solid');
+let nav = document.querySelector('.navOps')
 
 currentYear.textContent = `${date.getFullYear()}`;
 lastModified.textContent = `Last Modified: ${date.getHours()}:${date.getMinutes()} ${date.getMonth()}/${date.getDay()}/${date.getFullYear()}`;
@@ -18,6 +20,11 @@ const certificateArray = [
     ['WDD 131', true],
     ['WDD 231', false],
 ];
+
+hamburgerMenu.addEventListener('click', ()=> {
+    console.log("Hello")
+    nav.classList.toggle('activeMenu');
+})
 
 
 categoryBtn.forEach(btn => {

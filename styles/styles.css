@@ -34,6 +34,13 @@ header{
     padding: 10px;
     border: 1px solid black;
     background: var(--midnight-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: white;
 }
 
 
