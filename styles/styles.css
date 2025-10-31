@@ -44,6 +44,10 @@ header i{
     cursor: pointer;
 }
 
+header h2 {
+    color: white;
+}
+
 
 
 .logoName-holder {

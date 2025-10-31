@@ -46,6 +46,12 @@
     nav{
         display: none;
     }
+
+    .navOps.activeMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -84,7 +90,6 @@
         display: none;
         flex-direction: column;
         align-items: center;
-        /* display: none; */
     }
 
     .navOps.activeMenu {
