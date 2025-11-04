@@ -11,6 +11,13 @@ let nav = document.querySelector('.navOps')
 currentYear.textContent = `${date.getFullYear()}`;
 lastModified.textContent = `Last Modified: ${date.getHours()}:${date.getMinutes()} ${date.getMonth()}/${date.getDay()}/${date.getFullYear()}`;
 
+const fetchData = async () => {
+  const response  = await fetch('https://byui-cse.github.io/wdd231-ww-course/week02/example.json')
+  const data = await response.json();
+
+  console.log(data);
+}
+
 
 const certificateArray = [
     ['CSE 111', true],
@@ -24,6 +31,7 @@ const certificateArray = [
 hamburgerMenu.addEventListener('click', ()=> {
     console.log("Hello")
     nav.classList.toggle('activeMenu');
+    fetchData()
 })
 
 
