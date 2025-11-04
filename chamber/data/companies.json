@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Palanas Insurance Services",
+        "address" : "P7 Talic, Oroquieta City, 7207 Misamis Occidental, Philippines",
+        "phone" : 6309817074763,
+        "website" : "www.facebook.com/palanasinsuranceservices/",
+        "imageurl" : "https://scontent.fmnl13-3.fna.fbcdn.net/v/t39.30808-6/291865278_410113621135488_7748531409922238498_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aO4BGQnV_mAQ7kNvwFj42wN&_nc_oc=AdmFlEAxMyY0-8BI6LoAt3Z9zObKUxzbjFIzK9Jw0oV4-Sl5CXnC0vZhy8TedwvpI98vN920gj-4sdqyg0L2e1dG&_nc_zt=23&_nc_ht=scontent.fmnl13-3.fna&_nc_gid=-cj_YsdpWkkYJzHMkAJGFQ&oh=00_AfjdM16xFbCjRmcnlk5bXZZZ_428153_BSvKF_stpoheQA&oe=69102424",
+        "membership" : 1,
+        "isNew" : true
+    },
+    {
+        "name": "DXN Philippines - Oroquieta",
+        "address" : "242 J.P. Quijano Street, Poblacion I, Oroquieta, Misamis Occidental, Philippines",
+        "phone" : "0885310162", 
+        "website" : "www.dxnphil.com",
+        "imageurl" : "https://scontent.fmnl13-4.fna.fbcdn.net/v/t39.30808-6/465050531_8767230933323295_4673109141045687760_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=2285d6&_nc_ohc=zhG6FzkuOsMQ7kNvwHTGQI9&_nc_oc=Adm78MAsb0got9QV_lRbfTlhPT6UKhxKJZ3qI0LCfMLQtpEBPvhqY1DHjXhMFfyp6pod0FcejLaWyryjUp_CjwXG&_nc_zt=23&_nc_ht=scontent.fmnl13-4.fna&_nc_gid=M3pc_n081V8ypvKHxmgEtw&oh=00_Afi7GMQMLgjKotab7s13_yEChT-9J_tiUDhAYFUbTqGkdw&oe=691050A9",
+        "membership" : 2,
+        "isNew" : false
+    },
+    {
+        "name": "JRS Express - Oroquieta City, Misamis Occidental",
+        "address" : "Poblacion 1, Oroquieta, Misamis Occidental, Philippines",
+        "phone" : "(088) 531-1519", 
+        "website" : "www.jrs-express.com",
+        "imageurl" : "https://scontent.fmnl13-4.fna.fbcdn.net/v/t39.30808-1/472609470_997342062437701_2850423392836636406_n.jpg?stp=c595.595.858.858a_dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=uPwzSnVZ2b0Q7kNvwHAiBGt&_nc_oc=AdlRaUl2thDh5TDfNT836Wect2INj9jXT9i_uyLkr78Bwqf7N1VgJE2K7W0DoxgXUbV8LzUtlkaB18mJx0xqcnYR&_nc_zt=24&_nc_ht=scontent.fmnl13-4.fna&_nc_gid=eUCPEtGeC8tqYeoRGXCG5g&oh=00_AfjgLWlNv4flMarM90sVyItnWyQDjiUW1ftOt9Vsl02DKw&oe=691028EF",
+        "membership" : 1,
+        "isNew" : true
+    },
+    {
+        "name": "College Assurance Plan (CAP) - Region 10 (Misamis Occidental)",
+        "address" : "2nd Floor, Dajao Building, Rizal corner Lopez Jaena Streets, Poblacion I, Oroquieta, Misamis Occidental, Philippines",
+        "phone" : "(088) 531-1083", 
+        "website" : "www.cap.com.ph",
+        "imageurl" : "https://scontent.fmnl13-3.fna.fbcdn.net/v/t39.30808-6/500640403_10237294458528740_2832444589329791804_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=2285d6&_nc_ohc=irCzA_BLhzoQ7kNvwEprulT&_nc_oc=Adn3H75QwcNX22GmFuXM2lo9DblmE3qPsHnTbLyRjmyWumNVUrrVrqRhAr9GSC3dc5CSzfZRdth0HTP0gYrgoxLv&_nc_zt=23&_nc_ht=scontent.fmnl13-3.fna&_nc_gid=TtCTrMPs5k9c0suZYRu_LQ&oh=00_AfiH5jLav2UrF-PLxKGvRicgWjSjp06-sSPNHouHKMHX7Q&oe=69104432",
+        "membership" : 1,
+        "isNew" : false
+    },
+    {
+        "name": "Pacifica Agrivet Supplies Inc. - Washington",
+        "address" : "J.P. Quijano Street, Oroquieta, Misamis Occidental, Philippines",
+        "phone" : "(088) 531-1504", 
+        "website" : "www.pacificaagrivet.com",
+        "imageurl" : "https://scontent.fmnl13-3.fna.fbcdn.net/v/t39.30808-6/308678392_506333888168818_289301785846424352_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Cke73L-H76MQ7kNvwHR1um6&_nc_oc=Adm3As2Wl1MT4vaKcx6rTMUlCMyle-QEM6B2OTu6DceSBsRx0xHV-sNM4Ae0enaAbfPbesJ0BIMvwFVfwwD-neRH&_nc_zt=23&_nc_ht=scontent.fmnl13-3.fna&_nc_gid=kjjebKzFpWLFOhZZzbQ4-w&oh=00_AfjdjlOtXLlugtpPuRM3fh7Ph9H_Oy1rk40cfMttW408nw&oe=69103AF6",
+        "membership" : 3,
+        "isNew" : true
+    },
+    {
+        "name": "Felys Jewlery and Pawnshop - Oroquieta City, Misamis Occidental",
+        "address" : "Enerio Street, Barangay Poblacion, Oroquieta, Misamis Occidental, Philippines",
+        "phone" : "(088) 531-1182", 
+        "website" : "https://www.facebook.com/felysjewelryandpawnshop",
+        "imageurl" : "https://scontent.fmnl13-3.fna.fbcdn.net/v/t39.30808-6/488906577_1222579229873479_8628508234144362152_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tcbjDpGMKLsQ7kNvwF2vNIt&_nc_oc=Adn5SEt59EwGtv-QtbU-5igkKMzirgMo7XHo1ZTL8g3fFlM4X2uvABGuVzX9HYBPYqODW-yyvTO8CeoIxIHvML_0&_nc_zt=23&_nc_ht=scontent.fmnl13-3.fna&_nc_gid=I9t4c5U6OET4B6ozthjszg&oh=00_AfikgOwNXgog-VmTCnp-qwfk-wx56b9vdES8MFIEfHt46A&oe=691026D4",
+        "membership" : 3,
+        "isNew" : false
+    },
+    {
+        "name": "Transcycle",
+        "address" : "Mayor Enero Street, Oroquieta, Misamis Occidental, Philippines",
+        "phone" : "(088) 531-0238", 
+        "website" : "www.transcycle.com.ph",
+        "imageurl" : "https://i.pinimg.com/736x/8e/33/06/8e33065a709c78396db43fcfc7c939fe.jpg",
+        "membership" : 1,
+        "isNew" : false
+    }
+]

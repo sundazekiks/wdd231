@@ -1,0 +1,96 @@
+:root{
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+    --font-tertiary: "Montserrat", sans-serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    padding: 50px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+header h1, p {
+    font-family: var(--font-primary);
+    color: white;
+    font-size: 48px;
+}
+
+header h2 {
+    margin-top: 20px;
+    font-family: var(--font-tertiary);
+    font-size: 24px;
+    color: white;
+}
+
+header p{
+    font-family: var(--font-tertiary);
+    font-size: 16px;
+}
+
+header hr{
+    border: 0.5px solid white;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: var(--font-tertiary);
+    font-weight: 600;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 200px;
+    
+}
+
+.view{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.view button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.view button i {
+    font-size: 20px;
+}
+
+main h1{
+    width: 100%;
+    font-family: var(--font-primary)
+}
+
+.cards{
+    width: 100%;
+    border: 1px solid black;
+}
