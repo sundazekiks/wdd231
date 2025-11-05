@@ -1,0 +1,101 @@
+@media screen and (min-width: 1000px) {
+  header{
+    padding: 10px 100px;
+  }
+  main{
+    padding: 10px 100px;
+  }
+  #hamburger{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px) {
+  header{
+    padding: 10px 50px;
+  }
+  main{
+    padding: 10px 50px;
+  }
+  #hamburger{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+  header{
+    padding: 10px 20px;
+  }
+  main{
+    padding: 10px 20px;
+  }
+  .businessName.card h1 {
+    font-size: 30px;
+  }
+
+  .businessName.card p{
+    font-size: 16px;
+  }
+
+  .businessName.card hr{
+    width: 40%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .left p{
+    text-align: center;
+  }
+
+   .right p{
+    text-align: center;
+  }
+
+  section img{
+    width: 30%;
+  }
+
+  nav{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+   background: rgba(87, 199, 133, 1);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 999;
+  }
+
+  .navigation.active{
+    display: flex;
+  }
+
+  header{
+    align-items: flex-end;
+  }
+
+  header button {
+    
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  header button i{
+    font-size: 25px;
+  }
+
+  .list-item p:last-child{
+    display: none;
+  }
+
+}

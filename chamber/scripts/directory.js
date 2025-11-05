@@ -4,7 +4,10 @@ const cards = document.querySelector('.cards');
 const list = document.querySelector('.listView');
 const showNumberOfMembers = document.getElementById('numberOfMembers')
 const gridView = document.querySelector('.grid');
-const listView = document.querySelector('.list')
+const listView = document.querySelector('.list');
+const menu = document.getElementById('hamburger');
+const navBar = document.querySelector('.navigation')
+
 
 const fetchData = async () => {
     try{
@@ -18,11 +21,14 @@ const fetchData = async () => {
     
 }
 
+menu.addEventListener('click', () => {
+    navBar.classList.toggle('active');
+})
 
 // Printing the cards
 
 const generateCard = (companies) => {
-
+    cards.innerHTML = '';
     showNumberOfMembers.textContent = `Showing ${companies.length} companies`;
     console.log(companies.length);
     companies.forEach((company) => {
@@ -61,6 +67,7 @@ const generateCard = (companies) => {
 
 
 const generateList = (companies) => {
+    list.innerHTML = '';
     companies.forEach((company) => {
         const div = document.createElement('div');
         const p = document.createElement('p');

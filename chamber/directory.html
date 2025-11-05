@@ -8,6 +8,7 @@
     <link rel="icon" href="images/logo.webp">
 
     <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-media-queries.css">
     <script src="scripts/directory.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,19 +21,30 @@
 </head>
 <body>
     <header>
-        <h1>LocalLink Business Network</h1>
-        <hr>
-        <p>Chamber of Commerce</p>
-
-        <h2>Discover and connect with local businesses in our community</h2>
-        
-        <nav>
-            <a href="#">HOMEPAGE</a>
+        <div class="logoName">
+            <img src="images/localLinkBusinessLogoBgRemove.png" alt="LocalLink Business Logo">
+            <h3>LocalLink</h3>
+        </div>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Discover</a>
         </nav>
-    </header> 
+        <button id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
     <main>
+        <div class="businessName card">
+            <h1>LocalLink Business Network</h1>
+            <hr>
+            <p>Chamber of Commerce</p>
+
+            <h2>Discover and connect with local businesses in our community</h2>
+        </div> 
         <div class="view">
-            <button class="grid"><i class="fa-solid fa-bars"></i></button>
+            <button class="grid"><i class="fa-solid fa-boxes-stacked"></i></i></button>
             <button class="list"><i class="fa-solid fa-list"></i></button>
         </div>
         <h1>Local Businesses</h1>
@@ -41,7 +53,23 @@
         <div class="listView"></div>
     </main>
     <footer>
-        
+        <div class="left">
+            <p class="commerce-name">LocalLink Chamber of Commerce</p>
+            <p class="address">103 Barrientos Street, Oroquieta City, Misamis Occidental</p>
+            <p class="email">locallink@local.com</p>
+            <p class="phone">+639511648445</p>
+        </div>
+        <div class="social-meds">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <div class="right">
+            <p class="className">WDD 231 Chamber of Commerce</p>
+            <p class="studentName">Travis Abuton</p>
+            <p class="copyright">&copy; LocalLink Chamber of Commerce </p>
+            <p class="lastModified"></p>
+        </div>
     </footer>
 </body>
 </html>
