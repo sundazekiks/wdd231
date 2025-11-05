@@ -8,6 +8,11 @@
   #hamburger{
     display: none;
   }
+
+  section img{
+    width: 30%;
+  }
+
 }
 
 @media screen and (min-width: 800px) and (max-width: 999px) {
