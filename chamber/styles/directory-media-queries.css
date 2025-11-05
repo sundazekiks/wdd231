@@ -1,9 +1,9 @@
 @media screen and (min-width: 1000px) {
   header{
-    padding: 10px 100px;
+    padding: 10px 200px;
   }
   main{
-    padding: 10px 100px;
+    padding: 10px 200px;
   }
   #hamburger{
     display: none;
