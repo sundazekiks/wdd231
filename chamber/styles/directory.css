@@ -64,6 +64,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 10px 200px;
+    border: 1px solid black;
     
 }
 
@@ -86,11 +87,72 @@ main {
 }
 
 main h1{
+    margin-top: 20px;
     width: 100%;
-    font-family: var(--font-primary)
+    font-family: var(--font-primary);
+    font-size: 27px;
 }
 
 .cards{
     width: 100%;
+    /* border: 1px solid black; */
+    display: grid;
+	grid-gap: 0.6rem;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     border: 1px solid black;
+    padding: 10px;
+    height: 400px;
+}
+
+section h1 {
+    font-size: 20px;
+    font-family: var(--font-secondary)
+}
+
+section img {
+    width: 50%;
+}
+
+main p{
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+    font-family: var(--font-primary);
+    /* border: 1px solid black; */
+    width: 100%;
+    /* padding: 0 10px; */
+}
+
+.contact p{
+    color: black;
+    font-size: 18px;
+}
+
+.listView{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 100%;
+    gap: 1px;
+}
+
+.list-item{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item p{
+    font-size: 15px;
 }

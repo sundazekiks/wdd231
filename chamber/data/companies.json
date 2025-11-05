@@ -61,5 +61,14 @@
         "imageurl" : "https://i.pinimg.com/736x/8e/33/06/8e33065a709c78396db43fcfc7c939fe.jpg",
         "membership" : 1,
         "isNew" : false
+    },
+    {
+        "name": "Transcycle",
+        "address" : "Mayor Enero Street, Oroquieta, Misamis Occidental, Philippines",
+        "phone" : "(088) 531-0238", 
+        "website" : "www.transcycle.com.ph",
+        "imageurl" : "https://i.pinimg.com/736x/8e/33/06/8e33065a709c78396db43fcfc7c939fe.jpg",
+        "membership" : 1,
+        "isNew" : false
     }
 ]
