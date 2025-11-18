@@ -8,6 +8,7 @@ const companies = document.querySelector('.spotlight-companies')
 
 const dataUrl = 'https://raw.githubusercontent.com/sundazekiks/wdd231/refs/heads/main/chamber/data/companieswithEvents.json';
 
+console.log(h);
 const lat = 8.48;
 const lon = 123.79;
 const apiKey = 'b95117922e8e3b7c64543327fbb227b7';
