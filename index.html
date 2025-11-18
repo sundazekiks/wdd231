@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="W01 Assignment: Course Home Page showcasing my web development skills, chamber project, and final course entry for modern web design.">
+    <meta name="author" content="Travis Abuton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mobile-view.css">
+
+
+    <script src="scripts/index.js" defer></script>
+
+    <title>Course Home Page</title>
+</head>
+<body>
+    <header>
+        <div class="logoName-holder">
+            <img src="images/logo.webp" alt="Personal Logo">
+            <h2>Travis's Page</h2>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+    </header>
+    <nav class="navOps">
+        <a href="#">HOME</a>
+        <a href="#">CHAMBER</a>
+        <a href="#">FINAL</a>
+    </nav>
+    <main>
+        <h1>HOME</h1>
+        <section class="AboutMe">
+            <h2>About Me</h2>
+            <p>Hey there, I’m Travis, a passionate web developer who enjoys building clean, modern, and responsive websites. I love turning ideas into functional designs that not only look great but also deliver seamless user experiences. My goal is always to create something that feels smooth, intuitive, and built with purpose.
+                <br>
+                <br>
+            Over the years, I’ve developed a strong foundation in technologies like React, Node.js, Express, and Tailwind CSS. Whether it’s crafting dynamic front-end interfaces or developing reliable back-end systems, I approach every project with attention to detail and a drive to make things better — both visually and technically. I’m also big on writing clean, maintainable code that scales well with time.
+                <br>
+                <br>
+            Beyond coding, I’m someone who loves learning and experimenting with new tools to stay on top of web trends. I believe that great websites come from balancing design, performance, and usability — and that’s exactly what I strive for in every project I build. Thanks for stopping by — feel free to explore my work and see what I’ve been creating lately!
+            </p>
+        </section>
+        <section class="StudentPhoto">
+            <h2>Student Photo</h2>
+            <img src="images/profile-pic.webp" alt="Student Photo">
+        </section>
+        <section class="certificates">
+            <h2>Web Certificate Courses</h2>
+            <div class="certificateList">
+                <button class="all active">ALL</button>
+                <button class="wdd">WDD</button>
+                <button class="cse">CSE</button>
+            </div>
+            <div class="certificatesShowCase">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/travis-abuton-b30145343/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/sundazekiks/wdd231"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://x.com/sundazekik"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <div class="footer-details">
+            <p>&copy; <span id="currentYear"></span></p>
+            <p>Travis Abuton</p>
+            <p>Philippines</p>
+        </div>
+        <div class="modified">
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

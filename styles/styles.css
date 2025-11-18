@@ -1,0 +1,255 @@
+:root{
+    --custom-bg: #8f8c8cff;
+    --midnight-bg: #34495E;
+    --text-color: #D5E1DD;
+    --title-color: #012237ff;
+    --bg-color: #2B3e42;
+    --support-bg: #ffffffff;
+    --letter-font: "Roboto", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: grid;                 
+    grid-template-rows: auto auto 1fr auto;               
+    background-color: white;
+    padding: 10px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    padding: 10px;
+    border: 1px solid black;
+    background: var(--midnight-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header i{
+    color: white;
+    cursor: pointer;
+}
+
+header h2 {
+    color: white;
+}
+
+
+
+.logoName-holder {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px
+}
+
+.logoName-holder h1{
+    color: var(--text-color);
+}
+
+.logoName-holder img{
+    width: 50px;
+    border-radius: 5px;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    gap: 12px;
+    background: var(--bg-color);
+}
+
+nav a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    width: 0%;
+    height: 2px;;
+    background: white;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+  color: black;
+}
+
+main {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 500px;
+    grid-template-rows: auto 1fr auto;
+    padding: 10px;
+}
+
+main h1{
+    grid-row: 1;
+    grid-column: span 2;
+    color: var(--title-color)
+}
+
+.AboutMe{
+    border: 1px solid black;
+    background: var(--support-bg);
+}
+
+.AboutMe h2{
+    padding: 10px;
+    color: white;
+    background: var(--midnight-bg);
+    text-align: center;
+}
+
+.AboutMe p {
+    padding: 20px;
+    font-size: 17px;
+    font-family: var(--letter-font);
+}
+
+.StudentPhoto{
+    border: 1px solid black;
+    background: var(--support-bg);
+}
+
+.StudentPhoto h2{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: var(--midnight-bg);
+}
+
+.StudentPhoto img{
+    width: 50%;
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+
+.certificates{
+    border: 1px solid black;
+    grid-row: 3;
+    grid-column: span 2;
+    background: var(--support-bg);
+}
+
+.certificates h2{
+    text-align: center;
+    padding: 10px;
+    background: var(--midnight-bg);
+    color: white;
+}
+
+.certificatesShowCase{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.social-links{
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    gap: 5px;
+    background: white;
+}
+
+.social-links a > i{
+    font-size: 35px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    background: var(--midnight-bg);
+}
+
+.footer-details{
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    gap: 5px;
+}
+
+.footer-details p, span{
+    font-size: 18px;
+    color: white;
+}
+
+.modified p{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.cert-block{
+    padding: 10px;
+    width: 200px;
+    border-radius: 9px;
+    background: var(--custom-bg);
+}
+
+.cert-title{
+    text-align: center;
+    color: white;
+}
+
+.certificateList{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.certificateList button{
+    padding: 5px 100px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.certificateList button:hover{
+    padding: 5px 100px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background: green;
+    color: white;
+}
+
+.active {
+    background: green;
+    color: white;
+}
+
+.cert-block.achieve{
+    background: green;
+    
+}
+

@@ -1,0 +1,187 @@
+@media screen and (min-width: 1220px){
+    .cta h2, span{
+    font-size: 4.5rem;
+    }
+
+    .cta p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1219px) {
+    header{
+        padding: 1rem;
+        margin: 0 2rem;
+    }
+
+    .first-section{
+        margin: 0 2rem;
+    }
+
+    .cta{
+        padding: 2rem 5rem;
+    }
+
+    .cta h2, span{
+    font-size: 4rem;
+    }
+    .cta p{
+    /* border: 1px solid black; */
+    font-size: 1.2rem;
+    }   
+    .cta a{
+    font-size: 1rem;
+    width: 180px;
+    
+    }
+
+    .weather-details{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 900px){
+   
+    header{
+        padding: 0;
+        margin: 0 1rem;
+    }
+    .first-section{
+        margin: 0 1rem;
+    }
+
+    .cta{
+        padding: 2rem 3rem;
+    }
+
+    .cta h2, span{
+        font-size: 3rem;
+    }
+
+    .cta p{
+        font-size: 1rem;
+    }
+
+    .cta a{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 765px){
+    .cta h2,span{
+        font-size: 2.5rem;
+    }
+
+    .cta p{
+        font-size: 0.9rem;
+    }
+
+    .cta a{
+        font-size: 0.5rem;
+        width: 90px;
+    }
+
+    .cta{
+        padding: 2rem 3rem;
+    }
+
+    .events{
+        padding: 1rem 1rem;
+        margin: 0 1rem;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger-menu i{
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .third-section{
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .third-section{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .cta{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta h2, span{
+        font-size: 4rem;
+    }
+
+    .cta p{
+        font-size: 1rem;
+    }
+
+    .cta a{
+        font-size: 1rem;
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .cta h2, span{
+        font-size: 3rem;
+    }
+
+    .cta{
+        text-align: center;
+    }
+
+    .weather-section{
+        padding: 2rem 0;
+    }
+
+    .weather-card{
+        width: 100%;
+    }
+    .third-section{
+        margin: 0;
+    }
+
+    header{
+        padding: 0;
+    }
+    .brand h1, strong{
+        font-size: 1rem;
+
+    }
+
+    .brand img{
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 409px){
+    .cta h2, span {
+        font-size: 2.5rem;
+    }
+
+    .cta{
+        text-align: center;
+    }
+
+    .cta p {
+        font-size: 0.7rem;
+    }
+}

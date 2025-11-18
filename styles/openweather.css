@@ -1,0 +1,55 @@
+*{
+    font-family: 'OpenWeather', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, p, figure, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 2.5em;
+    color: #00796b;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+figure img{
+    width: 100px;
+    height: 100px;
+}
+
+figcaption{
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #555;
+}

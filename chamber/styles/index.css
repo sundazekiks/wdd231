@@ -1,0 +1,381 @@
+:root{
+    --primary-color: #2c3e50;
+    --secondary-color: #18bc9c;
+    --accent-color: #f39c12;
+    --background-color: #ecf0f1;
+    --text-color: #e7eaedff;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+    --font-tertiary: 'Montserrat', sans-serif;
+    --font-quad: 'Open Sans', sans-serif;
+    --gradient-primary: linear-gradient(135deg, #4169E1, #87CEFA, #FFD580);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: var(--font-primary);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1778cdff;
+    padding: 0 2rem;
+    margin: 0 4rem;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.brand h1, strong{
+    font-size: 2rem;
+    color: #1aa438ff;
+    font-family: var(--font-tertiary);
+}
+
+.brand strong{
+    color: #0150bfff;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+nav a{
+    text-decoration: none;
+    color: #0150bfff;
+    font-family: var(--font-tertiary);
+    font-weight: 700;
+}
+
+nav a:last-child{
+    background-color: #fcce00ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+
+nav a:last-child:hover{
+    background-color: #0cbc4cff;
+    color: #f8f8f8ff;
+    padding: 10px 30px;
+}
+
+
+
+
+/* main */
+
+.first-section{
+    position: relative;
+    margin: 0 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.hero{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    z-index: -10;
+    opacity: 0.4;
+}
+
+.hero img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.cta, .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    gap: 10px;
+    height: 100%;
+}
+
+.logo{
+    align-items: center;
+}
+
+.logo img{
+  min-width: 10%;
+  max-width: 90%;
+}
+
+.cta{
+    padding: 2rem 8rem; 
+}
+
+.cta h2, span{
+    font-size: 5rem;
+    color: #052761ff;
+}
+
+.cta span{
+    color: #7ac009ff;
+    background: #fbfbfbff;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.cta a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 500;
+    width: 190px;
+    color: #043784ff;
+    background: #fcce00ff;
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: var(--font-tertiary);
+    font-weight: 600;
+}
+
+.cta a:hover{
+    background-color: #0cbc4cff;
+    color: #f8f8f8ff;
+    transition: 0.3s ease-in;
+}
+
+.cta p{
+    /* border: 1px solid black; */
+    font-size: 1.5rem;
+    font-family: var(--font-secondary)
+}
+
+
+/* Events section */
+
+.events{
+    margin: 0 4rem;
+    padding: 1rem 2rem;
+}
+
+.events h2{
+    color: #043570ff;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+}
+
+.company-events{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(320px, 1fr);
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 1rem;
+}
+
+.event-card{
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px 2px #5856561f;
+    /* background: #40e68be1; */
+    backdrop-filter: blur(30px);
+}
+
+.event-card h3 {
+    font-size: 1.2rem;
+    color: #032f5cff;
+}
+
+.event-card p {
+    font-family: var(--font-tertiary);
+    margin: 10px 3px;
+}
+
+.event-card p:first-child{
+    font-size: 0.2rem;
+}
+
+.event-card p:last-child {
+    text-align: end;
+    font-style: italic;
+}
+
+/* Third Section */
+
+.third-section{
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin: 0 4rem;
+}
+
+.weather-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    /* border: 1px solid black; */
+}
+
+.spotlight-companies{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    /* border: 1px solid black; */
+    border: 1px solid #0000000a;
+    box-shadow: 2px 2px 2px 2px #a8a8a826;
+    border-radius: 20px;
+}
+
+.weather-section h2{
+    font-size: 36px;
+    color: #043b6eff;
+    font-family: var(--font-tertiary);
+}
+
+.weather-card{
+    height:100%;
+    width: 80%;
+    border: 1px solid #0000000a;
+    box-shadow: 2px 2px 2px 2px #a8a8a826;
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    background: #4bbbbd;
+    background: linear-gradient(6deg,rgba(75, 187, 189, 0.91) 24%, rgba(152, 255, 92, 0.91) 100%);
+    color: white;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather h4{
+    font-size: 36px;
+}
+
+.weather h5{
+    font-size: 21px;
+}
+
+.weather img{
+    width: 100px;
+}
+
+.weather-details{
+    display: flex;
+    gap: 30px;
+    box-shadow: 2px 2px 5px 1px #68656596;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+.humidity, .windSpeed {
+    display: flex;
+    gap: 20px;
+}
+
+.fa-wind{
+    font-size: 35px;
+}
+
+.spotlight-companies {
+
+}
+
+
+.fa-water{
+    font-size: 35px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.details p{
+    font-size: 14px;
+}
+
+.details p:last-child{
+    font-size: 20px;
+}
+
+.spotlight-companies{
+    display: flex;
+    background: #4bbbbd;
+    background: linear-gradient(6deg,rgba(75, 187, 189, 0.91) 24%, rgba(152, 255, 92, 0.91) 100%);
+    color: #000;
+}
+
+.spotlight-companies h1{
+    font-size: 36px;
+    color: #054c7bff;
+    text-align: center;
+}
+
+.compCard {
+    box-shadow: 2px 2px 2px 2px #a0a0a03b;
+    width: 80%;
+    padding: 15px 20px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #ffffff3d;
+}
+
+.location{
+    font-size: 12px;
+    font-style: italic;
+    color: #2c2626a5;
+}
+
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--text-color);
+}
