@@ -1,0 +1,52 @@
+
+/* Main Body */
+
+main{
+    margin: 0 4rem;
+    padding: 4rem 3rem;
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+
+}
+
+.options a{
+    text-decoration: none;
+    color: #000000ff;
+    cursor: pointer;
+}
+
+.options a i{
+    font-size: 1.5rem;
+}
+
+.listed-companies{
+    padding: 2rem 3rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.listed-companies.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 1px 1px 1px 1px #e2dada73;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+}
+
+.card.
+
+.card p{
+    font-size: 12px;
+    font-style: italic;
+}
