@@ -95,8 +95,34 @@
         margin: 0 1rem;
     }
 
-    nav a{
+    nav {
         display: none;
+    }
+
+    nav.active{
+        display: flex;
+        flex-direction: column;
+        right: 10px;
+        top: 50px;
+        position: absolute;
+        z-index: 10;
+        background: #6eb92dff;
+        padding: 2rem;
+        border-radius: 25px;
+    }
+
+    nav a{
+        transition: 0.9s ease-in;
+    }
+
+    nav a:hover {
+        background: #55f857ff;
+        padding: 0 10px;
+        border-radius: 20px;
+    }
+
+    nav a:last-child{
+        background: none;
     }
 
     .hamburger-menu{
