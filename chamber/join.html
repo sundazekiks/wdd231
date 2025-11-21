@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Travis Abuton - WDD 231">
+    <meta name="description" content="Local Link Join Page Form">
+    <link rel="icon" href="images/logo.webp">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/index-responsive-design.css">
+   
+    <script src="scripts/univ.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sundazekiks.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="LocalLink Business Network">
+    <meta property="og:description" content="Discover and connect with local businesses in our community.">
+    <meta property="og:image" content="https://www.locallinknetwork.com/assets/locallink-banner.jpg">
+
+    <meta name="twitter:url" content="https://www.microsoft.com/en-us">
+    <meta name="twitter:title" content="LocalLink Business Network">
+    <meta name="twitter:description" content="Discover and connect with local businesses in our community">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>LocalLink Business Network</title>
+
+</head>
+<body>
+    <!-- Modals  -->
+     <dialog class="npModal">
+        <div class="content">
+            <p class="close">ESC</p>
+            <h2>Non Profit Membership Level</h2>
+            <h3>₱499 / year</h3>
+            <p>This tier supports local organizations committed to community service. Non-profit members receive essential listing benefits, visibility within community categories, and access to collaboration opportunities. It’s an accessible way for nonprofits to share their mission and connect with supporters through LocalLink.</p>
+        </div>
+        </dialog>
+        <dialog class="npModal">
+            <div class="content">
+                <p class="close">ESC</p>
+                <h2>Bronze Membership Level</h2>
+                <h3>₱1,299 / year</h3>
+                <p>Bronze Membership is a budget-friendly option perfect for small businesses or startups. Members receive essential listing features, access to basic promotion tools, and inclusion in local searches. This level ensures your business is discoverable and connected without heavy commitments.</p>
+            </div>
+        </dialog>
+        <dialog class="npModal">
+            <div class="content">
+                <p class="close">ESC</p>
+                <h2>Silver Membership Level</h2>
+                <h3>₱2,999 / year</h3>
+                <p>Silver Membership offers strong visibility and advanced benefits designed to help growing businesses expand their reach. Silver members receive boosted listing visibility, access to selected marketing tools, and invitations to exclusive LocalLink events. This tier delivers great value while strengthening your connection to the local community.</p>
+            </div>
+        </dialog>
+        <dialog class="npModal">
+            <div class="content">
+                <p class="close">ESC</p>
+                <h2>Gold Membership Level</h2>
+                <h3>₱4,999 / year</h3>
+                <p>Our Gold Membership provides the highest level of visibility and support for your business on LocalLink. Gold members enjoy premium placement in listings, priority recommendations, enhanced marketing tools, featured spotlights, and early access to new platform features. This level is ideal for businesses looking to maximize exposure and attract more local customers.</p>
+            </div>
+        </dialog>
+
+   <header>
+        <div class="brand">
+            <img src="images/LocalLinkLogo.webp" alt="company logo">
+            <h1>Local <strong>Link</strong></h1>
+        </div>
+        <nav class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="directory.html">DIRECTORY</a>
+            <a href="join.html">JOIN</a>
+            <a href="discovery.html">DISCOVERY</a>
+        </nav>
+        <a class="hamburger-menu"><i class="fa-solid fa-bars"></i></a>
+   </header>
+   <main>
+       <section class="statement">
+            <h2>
+                Join LocalLink Chamber of Commerce
+            </h2>
+            <h3>
+                Become part of a thriving network of local businesses, entrepreneurs, and
+                <br> community leaders. When you join LocalLink, you gain access to valuable
+                <br> resources, trusted connections, and opportunities that help your 
+                <br>business grow.
+            </h3>
+            <p>Whether you’re a startup, small business, or established organization, we’re
+                <br>
+                here to support your success. Together, we strengthen our community—one 
+                <br>
+                partnership at a time.</p>
+            <h4>Join us today and take your business to the next level.</h4>
+       </section>
+       <section class="form">
+            <form method="GET" action="thank-you.html">
+                <div class="firstname">
+                    <label for="firstName">First Name: </label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="lastname">
+                    <label for="lastName">Last Name: </label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="organizationtitle">
+                    <label for="organizationalTitle">Organizational Title:</label>
+                    <input type="text" id="organizationalTitle" name="organizationalTitle" autocomplete="given-name" pattern="^[A-Za-z\- ]{7,}$">
+                </div>
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" autocomplete="given-name" required>
+                </div>
+                <div class="phoneNumber">
+                    <label for="phone">Phone Number: </label>
+                    <input type="telephone" required name="phone" title="Phone Number of Client" autocomplete="correct">
+                </div>
+                <div class="businessname">
+                    <label for="businessName">Business Name: </label>
+                    <input type="text" required name="businessName" title="business Name of Client">
+                </div>
+                <div class="memberLevel">
+                    <label for="memberLevel">Membership Level: </label>
+                    <select name="memberLevel" id="memberLevel">
+                        <option value="NP">NP Membership</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+                </div>
+                <div class="timestamp"> 
+                    <input type="hidden" id="timestamp" name="timestamp">
+                </div>
+                <button type="submit" id="submitBtn">Submit</button>
+            </form>
+       </section>
+       <section class="cards">
+            <h2>Membership Levels</h2>
+            <div class="np card">
+                <h3>Non Profit Membership Level</h3>
+                <a  class="learnMore">Learn More</a>
+            </div>
+            <div class="bronze card">
+                <h3>Bronze Membership Level</h3>
+                <a class="learnMore">Learn More</a>
+            </div>
+            <div class="silver card">
+                <h3>Silver Membership Level</h3>
+                <a  class="learnMore">Learn More</a>
+            </div>
+            <div class="gold card">
+                <h3>Gold Membership Level</h3>
+                <a class="learnMore">Learn More</a>
+            </div>
+       </section>
+   </main>
+    <footer>
+        <div class="left">
+            <p class="commerce-name">LocalLink Chamber of Commerce</p>
+            <p class="address">103 Barrientos Street, Oroquieta City, Misamis Occidental</p>
+            <p class="email">locallink@local.com</p>
+            <p class="phone">+639511648445</p>
+        </div>
+        <div class="social-meds">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <div class="right">
+            <p class="className">WDD 231 Chamber of Commerce</p>
+            <p class="studentName">Travis Abuton</p>
+            <p class="copyright">&copy; LocalLink Chamber of Commerce </p>
+            <p class="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

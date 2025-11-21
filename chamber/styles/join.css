@@ -1,0 +1,160 @@
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 0 4rem;
+    margin-bottom: 2rem;
+}
+
+main section{
+    padding: 1rem 2rem;
+}
+
+.statement{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 2rem 0;
+}
+
+.statement h2{
+    font-size: 2rem;
+    color: #09326dff;
+    font-family: "Montserrat" sans-serif;
+}
+
+.statement h3{
+    font-weight: 600;
+    font-family: "Montserrat" sans-serif;
+}
+
+.statement h4{
+    font-size: 1.5rem;
+}
+
+/* FORM DETAILS */
+
+form div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+input[placeholder]{
+    font-style: italic;
+    font-family: 'Montserrat' sans-serif;
+}
+
+.form{
+    padding: 3rem 2rem;
+    background: #ffffffc3;
+    border-radius: 25px;
+    margin: 1rem 0;
+    box-shadow: 1px 1px 1px 1px #7b7b7b2d;
+    border: 1px solid #7b7b7b27;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 1rem 2rem;
+}
+
+input {
+    padding: 3px 10px;
+}
+
+/* Membership Level Cards */
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cards h2{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    padding: 2rem 2rem;
+    gap: 10px;
+    width: 100%;
+    border: 1px solid #8d8d8d76;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #c1b9b9ff;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0; /* remove default weird dialog margin */
+  padding: 2rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}   
+
+.close{
+    position: absolute;
+    right: 2px;
+    color: #4b49496d;
+    font-style: italic;
+    font-size: 14px; 
+}
+
+.np, .bronze, .silver, .gold {
+    opacity: 0;
+}
+
+
+.np.animate {
+    animation: fadeIn 0.5s ease-in 0.5s forwards;
+}
+
+.bronze.animate {
+    animation: fadeIn 0.5s ease-in 1s forwards;
+}
+
+.silver.animate {
+    animation: fadeIn 0.5s ease-in 1.5s forwards;
+}
+
+.gold.animate {
+    animation: fadeIn 0.5s ease-in 2s forwards;
+}
+
+/* Keyframes */
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

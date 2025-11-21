@@ -5,8 +5,8 @@ const weather = document.querySelector('.weather');
 const h = document.querySelector('.h');
 const w = document.querySelector('.w');
 const companies = document.querySelector('.spotlight-companies')
-const hamMenu = document.querySelector('.hamburger-menu');
-const nav = document.querySelector('.navigation')
+// const hamMenu = document.querySelector('.hamburger-menu');
+// const nav = document.querySelector('.navigation')
 const dataUrl = 'https://raw.githubusercontent.com/sundazekiks/wdd231/refs/heads/main/chamber/data/companieswithEvents.json';
 
 
@@ -22,9 +22,9 @@ const fetchweatherData = async () => {
     weatherCardDetails(data);
 }
 
-hamMenu.addEventListener('click', () => {
-    nav.classList.toggle('active');
-})
+// hamMenu.addEventListener('click', () => {
+//     nav.classList.toggle('active');
+// })
 
 fetchweatherData();
 

@@ -7,6 +7,13 @@ let certificatesDiv = document.querySelector('.certificatesShowCase');
 let categoryBtn = document.querySelectorAll('.certificateList button');
 let hamburgerMenu = document.querySelector('.fa-solid');
 let nav = document.querySelector('.navOps')
+const modal = document.getElementById('myModal');
+const close = document.getElementById('closeModal');
+modal.showModal();
+
+close.addEventListener('click', () => {
+  modal.close();
+})
 
 currentYear.textContent = `${date.getFullYear()}`;
 lastModified.textContent = `Last Modified: ${date.getHours()}:${date.getMinutes()} ${date.getMonth()}/${date.getDay()}/${date.getFullYear()}`;

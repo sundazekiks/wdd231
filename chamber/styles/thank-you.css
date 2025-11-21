@@ -1,0 +1,52 @@
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main h2{
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+}
+
+#name {
+    font-size: 18px;
+}
+
+.options{
+    display: flex;
+    gap: 10px;
+}
+
+.options a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #024378ff;
+    font-weight: 600;
+    background: #fcce00ff;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+}
+
+.options a:hover{
+    background-color: #0cbc4cff;
+    color: #f8f8f8ff;
+}
+
+.info{
+    display
+}
+
+.detail{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 10px;
+}
