@@ -30,6 +30,7 @@ const scripts = {
 window.addEventListener("DOMContentLoaded", async () => {
     const storedLastTime = localStorage.getItem("timeLastVisited")
     const hasVisited = Boolean(storedLastTime);
+    let checkered;
 
     if (!hasVisited){
         console.log("First Time")
@@ -37,19 +38,22 @@ window.addEventListener("DOMContentLoaded", async () => {
         localStorage.setItem("timeLastVisited", Date.now());
     }
 
-    const checker = scripts.nDays();
-
-
-    if(checker[1] < 1 ){
+    if(hasVisited){
+        checkered = scripts.nDays();
+        if(checkered[1] < 1 ){
        
         modifier.textContent = scripts.backSoSoon;
         localStorage.setItem("timeLastVisited", Date.now());
+        }
+        else{
+            console.log(checker[0])
+            localStorage.setItem("timeLastVisited", Date.now());
+            modifier.textContent = checker[0];
+        }
     }
-    else{
-        console.log(checker[0])
-        localStorage.setItem("timeLastVisited", Date.now());
-        modifier.textContent = checker[0];
-    }
+
+
+    
 
     generatedDataCard(places)
 })
