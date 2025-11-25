@@ -1,0 +1,113 @@
+
+main {
+    position: relative;
+    margin: 2rem 4rem;
+}
+
+.grid-holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 10px;
+}
+
+.placeCard{
+    border: 1px solid #504f4f77;
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas:
+    "photo title"
+    "photo address"
+    "photo description";
+    gap: 10px;
+    overflow: hidden;
+}
+
+#modifier{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    font-weight: 700;
+}
+
+.placeCard img{
+    grid-area: photo;
+    height: 200px;
+}
+
+.placeCard h2 {
+    grid-area: title;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+.placeCard h3 {
+    grid-area: address;
+    font-size: 14px;
+}
+
+.placeCard p {
+    grid-area: description;
+}
+
+
+@media screen and (min-width: 1025px){
+    .placeCard{
+    border: 1px solid #504f4f77;
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas:
+    "photo title"
+    "photo address"
+    "photo description";
+    gap: 10px;
+    overflow: hidden;
+}
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+    .placeCard{
+    border: 1px solid #504f4f77;
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas:
+    "title title"
+    "photo address"
+    "photo description";
+    gap: 10px;
+    overflow: hidden;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+   
+    .grid-holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+
+    .placeCard{
+    border: 1px solid #504f4f77;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.placeCard h2, h3, p{
+    text-align: center;
+}
+
+.placeCard img{
+    width: 120%;;
+}
+
+#modifier{
+    top: -20px;
+}
+
+}
