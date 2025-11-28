@@ -1,0 +1,85 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+}
+
+div h1{
+    font-size: 36px;
+}
+
+div h2{
+    text-indent: 25px;
+}
+
+div:nth-child(1){
+    p {
+        text-indent: 30px;
+    }
+}
+
+div:nth-child(2){
+    p {
+        text-indent: 25px;
+        font-size: 15px;
+        font-family: "Inter";
+    }
+}
+
+div:nth-child(3){
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+#color p:nth-child(2){
+    background: #333333;
+    width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #c7c7c7ff;
+}
+
+#color p:nth-child(3){
+    background: #6B9AF2;
+    width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #060606ff;
+}
+
+#color p:nth-child(4){
+    background: #FAFAFA;
+    width: fit-content;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #060606ff;
+}
+
+.typography p{
+    position: relative;
+    left: 100px;
+}
+
+.typography p:nth-child(2){
+    font-family: "Poppins", sans-serif;
+}
+
+.typography p:nth-child(3){
+    font-family: "Roboto", sans-serif;
+}
+
+.typography p:nth-child(4){
+    font-family: "Inter", sans-serif;
+}
