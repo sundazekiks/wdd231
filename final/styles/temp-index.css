@@ -1,0 +1,75 @@
+:root{
+    --text-primary: #333333;
+    --text-accent: #6b9af2;
+    --bg-color: #FAFAFA;
+    --font-heading: "Poppins", sans-serif;
+    --font-body: "Roboto", sans-serif;
+    --font-footer: "Inter", sans-serif;
+}
+
+*{
+    font-size: 16px;
+    font-family: var(--font-body);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hamburg{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 5px 50px;
+    margin: 15px 2rem;
+    border-radius: 35px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.name h1{
+    font-size: 20px;
+    font-family: var(--font-heading);
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+nav a{
+    font-family: var(--font-heading);
+    font-weight: 450;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--text-accent);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-footer);
+    color: #FAFAFA;
+}
+
