@@ -1,0 +1,48 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "title": "Lead Management",
+      "description": "Track, organize, and follow up with leads effortlessly using a unified CRM dashboard.",
+      "icon": "lead-icon"
+    },
+    {
+      "id": 2,
+      "title": "Task Automation",
+      "description": "Automate repetitive tasks and workflows to save time and boost productivity.",
+      "icon": "automation-icon"
+    },
+    {
+      "id": 3,
+      "title": "Analytics & Reporting",
+      "description": "Visualize key metrics and generate powerful reports for better decision-making.",
+      "icon": "analytics-icon"
+    },
+    {
+      "id": 4,
+      "title": "Team Collaboration",
+      "description": "Assign tasks, share notes, and keep your whole team aligned inside Hubly CRM.",
+      "icon": "team-icon"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Mendoza",
+      "company": "BrightConnect Agency",
+      "quote": "Hubly CRM helped us cut lead response time by 40%. It's clean, fast, and easy to use."
+    },
+    {
+      "id": 2,
+      "name": "Jason Rivera",
+      "company": "Rivera Realty Group",
+      "quote": "The automation features saved my team hours every week. Highly recommended!"
+    },
+    {
+      "id": 3,
+      "name": "Mae Santos",
+      "company": "Santos Digital Solutions",
+      "quote": "The dashboard gives me everything I need at a glance. Hubly CRM is a game changer."
+    }
+  ]
+}
