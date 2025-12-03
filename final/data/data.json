@@ -9,7 +9,7 @@
     {
       "id": 2,
       "title": "Task Automation",
-      "description": "Automate repetitive tasks and workflows to save time and boost productivity.",
+      "description": "Automate repetitive tasks and workflows to save time and increase productivity.",
       "icon": "automation-icon"
     },
     {
@@ -21,8 +21,56 @@
     {
       "id": 4,
       "title": "Team Collaboration",
-      "description": "Assign tasks, share notes, and keep your whole team aligned inside Hubly CRM.",
+      "description": "Assign tasks, share notes, and keep your team aligned with built-in collaboration tools.",
       "icon": "team-icon"
+    },
+    {
+      "id": 5,
+      "title": "Pipeline Management",
+      "description": "See every deal at every stage with a visual, drag-and-drop sales pipeline.",
+      "icon": "pipeline-icon"
+    },
+    {
+      "id": 6,
+      "title": "Email Integration",
+      "description": "Sync your email to send, receive, and track conversations directly inside Hubly CRM.",
+      "icon": "email-icon"
+    },
+    {
+      "id": 7,
+      "title": "Activity Tracking",
+      "description": "Log calls, meetings, messages, and notes automatically to keep everything organized.",
+      "icon": "activity-icon"
+    },
+    {
+      "id": 8,
+      "title": "Custom Fields",
+      "description": "Capture the exact data your business needs with customizable fields and labels.",
+      "icon": "custom-icon"
+    },
+    {
+      "id": 9,
+      "title": "Role-Based Access",
+      "description": "Control user permissions and keep sensitive data secure across your team.",
+      "icon": "security-icon"
+    },
+    {
+      "id": 10,
+      "title": "Mobile CRM",
+      "description": "Stay productive on the go with a responsive mobile CRM experience.",
+      "icon": "mobile-icon"
+    },
+    {
+      "id": 11,
+      "title": "Notifications & Alerts",
+      "description": "Never miss a deal or deadline with real-time alerts and reminders.",
+      "icon": "notification-icon"
+    },
+    {
+      "id": 12,
+      "title": "Integrations",
+      "description": "Connect Hubly CRM with your favorite tools like Google Workspace, Slack, and more.",
+      "icon": "integration-icon"
     }
   ],
   "testimonials": [
