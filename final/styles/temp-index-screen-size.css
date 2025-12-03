@@ -1,0 +1,52 @@
+@media screen and (min-width: 320px){
+    nav{
+        display: none;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .navigation.active{
+        background: #FAFAFA;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        top: 60px;
+        right: 50px;
+        justify-content: end;
+        align-items: end;
+        position: absolute;
+        border-radius: 25px;
+        z-index: 999;
+    }
+
+    .navigation.active a{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #hamburg{
+        display: block;
+    }
+    header{
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (min-width: 850px){
+    nav{
+        display: flex;
+    }
+
+    .navigation.active{
+        display: none;
+    }
+
+    #hamburg{
+        display: none;
+    }
+}
+
+

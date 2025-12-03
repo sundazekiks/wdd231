@@ -1,3 +1,5 @@
+
+
 .first{
     height: 60vh;
     margin: 2rem 4rem;
@@ -64,4 +66,121 @@ button{
     to{
         transform: translateX(0)
     }
+}
+
+/* Second Section */
+
+
+
+
+.second {
+    min-height: 40vh;
+    background: var(--text-accent);
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.second h1{
+    font-size: 27px;
+    color: var(--bg-color);
+    font-family: var(--font-heading);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex:  1;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 15px 40px;
+    border-radius: 20px;
+    animation: fadeIn 1s ease-in-out forwards;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.25);
+    transform: translateY(-10px);
+    margin: 10px 13px;
+}
+
+.pl {
+  display: flex;
+  gap: 20px;
+}
+
+.card h1{
+    font-size: 18px;
+    text-align: start;
+}
+
+.card i{
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Third Section */
+
+
+.third{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.third h1 {
+    font-size: 27px;
+    font-family: var(--font-heading);
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border: 1px solid #eaeaea;
+}
+
+.testimonial-card p:first-of-type {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.testimonial-card h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #222;
+}
+
+.testimonial-card p:last-of-type {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
 }
