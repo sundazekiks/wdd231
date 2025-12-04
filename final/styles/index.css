@@ -35,16 +35,17 @@
     font-weight: 300;
     font-family: var(--font-footer)
 }
-.cta h1, h2, button{
+.cta h1, h2, .btn{
     animation: SlideInLeft 1s ease-in-out forwards
 }
 
 
-button{
+.btn{
     width: 200px;
     padding: 9px 10px;
     border-radius: 25px;
     border: none;
+    text-align: center;
     background: var(--text-accent);
     color: #FAFAFA;
 }

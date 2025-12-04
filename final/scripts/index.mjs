@@ -17,4 +17,3 @@ const testimonialContainer = document.querySelector('.testimonials');
     cardGenerator(getData, testimonialContainer, false, true)
 })();
 
-

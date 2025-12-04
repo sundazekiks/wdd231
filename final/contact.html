@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Travis Abuton | Github username: sundazekiks">
+    <meta name="description" content="Hubly CRM Landing Page | this is the Home Page">
+
+    <!-- Fonts CDN -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Style Links -->
+    <link rel="stylesheet" href="styles/temp-index.css">
+    <link rel="stylesheet" href="styles/temp-index-screen-size.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <!-- Scripts (js or mjs files) -->
+    <script src="scripts/temp-index.js" defer></script>
+    <script src="scripts/contact.mjs" type="module"></script>
+    
+    <title>Hubly : The CRM</title>
+</head>
+<body>
+    <header>
+        <!-- Name and Logo Holder -->
+         <div class="name">
+                <img id="logo" src="images/hubly_logo.webp" alt="the Hubly CRM Logo" loading="lazy">
+                <h1>Hubly</h1>
+         </div>
+         <nav class="">
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="contact.html">Contact & Pricing</a>
+         </nav>
+         <div class="navigation">
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="contact.html">Contact & Pricing</a>
+         </div>
+         <img id="hamburg" src="images/menu.svg" alt="hamburger menu">
+    </header>
+    <main>
+        <div class="container">
+
+            <!-- Signup Form -->
+            <section id="signup-demo" class="section">
+                <h2>Get Started with Hubly CRM</h2>
+                <p class="section-subtitle">Powerful tools to close more deals, stay organized, and grow your business.</p>
+
+                <form class="form card">
+                <input type="text" placeholder="Full Name" required />
+                <input type="email" placeholder="Email Address" required />
+                <input type="text" placeholder="Company Name" required />
+                <button type="submit" class="btn-primary">Submit</button>
+                </form>
+            </section>
+
+            <!-- Pricing Table -->
+            <section id="pricing" class="section">
+                <h2>Pricing Plans</h2>
+                <p class="section-subtitle">Simple pricing. No contracts. Cancel anytime.</p>
+
+                <div class="pricing-container">
+
+                <div class="plan card">
+                    <h3>Basic</h3>
+                    <p class="price">$19 <span>/ month</span></p>
+                    <ul>
+                    <li>Core CRM Tools</li>
+                    <li>Email Support</li>
+                    <li>Limited Automations</li>
+                    </ul>
+                    <button class="btn-outline">Choose Plan</button>
+                </div>
+
+                <div class="plan card highlight">
+                    <h3>Pro</h3>
+                    <p class="price">$49 <span>/ month</span></p>
+                    <ul>
+                    <li>Everything in Basic</li>
+                    <li>Full Automations</li>
+                    <li>Team Collaboration</li>
+                    <li>Analytics Dashboard</li>
+                    </ul>
+                    <button class="btn-primary">Most Popular</button>
+                </div>
+
+                <div class="plan card">
+                    <h3>Enterprise</h3>
+                    <p class="price">Custom <span>pricing</span></p>
+                    <ul>
+                    <li>Full Suite Access</li>
+                    <li>Dedicated Support</li>
+                    <li>Custom Integrations</li>
+                    <li>Personalized Onboarding</li>
+                    </ul>
+                    <button class="btn-outline">Contact Sales</button>
+                </div>
+
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="section">
+                <h2>Contact Us</h2>
+                <p>Email: travis-support@hublycrm.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/travs.buton"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://x.com/sundazekik"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/sundazekiks/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section id="faq" class="section">
+                <h2>FAQ</h2>
+
+                <div class="faq-item card">
+                <h4>Is there a free trial?</h4>
+                <p>Yes! Try Hubly CRM free for 14 days — no credit card required.</p>
+                </div>
+
+                <div class="faq-item card">
+                <h4>Can I cancel anytime?</h4>
+                <p>Absolutely. Cancel your plan any time with no penalties or hidden fees.</p>
+                </div>
+            </section>
+
+            <!-- CTA Footer -->
+            <section id="cta-footer" class="cta-footer">
+                <button class="btn-primary big">Sign Up Now</button>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; HUBLY CRM by Travis Abuton | <span id="currentYear"></span></p>
+    </footer>
+</body>
+</html>
