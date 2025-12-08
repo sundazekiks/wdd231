@@ -9,15 +9,17 @@ main{
     justify-column;: center;
     align-items: center;
     gap: 15px;
-    h1{
-        font-size: 48px;
-    }
-    h2{
-        font-weight: 300;
+    
+}
+
+.first h2{
+    font-size: 48px;
+}
+.first h3{
+    font-weight: 300;
         font-size: 18px;
 
     }
-}
 
 
 .feature {
@@ -83,4 +85,15 @@ main{
 video{
     width: 100%;
     height: 60vh;
+}
+
+
+footer{
+    background: #376ac8;
+    color:  #ffffff;
+}
+
+button{
+    background: #376ac8;
+    color:  #ffffff;
 }

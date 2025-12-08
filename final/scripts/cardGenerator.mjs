@@ -15,8 +15,8 @@ export const cardGenerator = (data, elementWrapper, isSliced=false, isTestimonia
         const div = document.createElement('div')
         const placeHolder = document.createElement('div')
         const a = document.createElement('a');
-        const h1 = document.createElement('h1')
-        const h2 = document.createElement('h2')
+        const h1 = document.createElement('h2')
+        const h2 = document.createElement('h3')
         const p = document.createElement('p')
 
         div.classList.add('card')

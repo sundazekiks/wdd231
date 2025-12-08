@@ -17,6 +17,15 @@
     animation: SlideInRight 1s ease-in-out forwards;
 }
 
+.first a {
+    background: #376ac8;
+    transition: all 0.5s ease-in-out;
+}
+
+.first a:hover {
+    opacity: 0.5;
+}
+
 .cta{
     height: 100%;
     width: 100%;
@@ -27,15 +36,15 @@
     padding: 2rem 3rem; 
 }
 
-.cta h1{
+.cta h2{
     font-size: 36px; 
 }
-.cta h2{
+.cta h3{
     font-size: 18px;
     font-weight: 300;
     font-family: var(--font-footer)
 }
-.cta h1, h2, .btn{
+.cta h2, h3, .btn{
     animation: SlideInLeft 1s ease-in-out forwards
 }
 
@@ -82,7 +91,7 @@
     flex-direction: column;
 }
 
-.second h1{
+.second h2, h1{
     font-size: 27px;
     color: var(--bg-color);
     font-family: var(--font-heading);
