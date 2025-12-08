@@ -96,8 +96,8 @@
 
 
 .btn-primary {
-    background: var(--text-accent);
-    color: #fff;
+    background: #376ac8;
+    color: #ffffff;
     border: none;
     padding: 1rem;
     border-radius: 10px;
@@ -174,5 +174,8 @@
 
 footer{
     background: #376ac8;
+}
+
+footer p{
     color:  #ffffff;
 }

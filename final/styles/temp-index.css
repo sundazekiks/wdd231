@@ -1,7 +1,7 @@
 :root{
     --text-primary: #333333;
-    --text-accent: #6b9af2;
-    --bg-color: #FAFAFA;
+    --text-accent: #266ef2;
+    --bg-color: #ffffff;
     --font-heading: "Poppins", sans-serif;
     --font-body: "Roboto", sans-serif;
     --font-footer: "Inter", sans-serif;
@@ -50,6 +50,7 @@ header{
 .name h1{
     font-size: 20px;
     font-family: var(--font-heading);
+    color: var(--text-primary)
 }
 
 nav{
