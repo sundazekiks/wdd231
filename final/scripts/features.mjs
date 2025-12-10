@@ -57,9 +57,10 @@ function cardGenerator(featuresData) {
         div.appendChild(placeHolder);
         div.appendChild(p);
 
+        console.log(featuresData)
         
         div.addEventListener('click', () => {
-            console.log(item.title);
+            generateModalDetails(item)
         });
 
         

@@ -1,6 +1,9 @@
 main{
     padding: 2rem 4rem;
 }
+body{
+    position: relative;
+}
 
 .first{
     display: flex;
@@ -100,3 +103,6 @@ button{
     background: #376ac8;
     color:  #ffffff;
 }
+
+
+

@@ -59,10 +59,10 @@
                 <h2>Get Started with Hubly CRM</h2>
                 <p class="section-subtitle">Powerful tools to close more deals, stay organized, and grow your business.</p>
 
-                <form class="form card">
-                <input type="text" placeholder="Full Name" required />
-                <input type="email" placeholder="Email Address" required />
-                <input type="text" placeholder="Company Name" required />
+                <form class="form card" action="thank-you.html" method="get">
+                <input type="text" placeholder="Full Name"  name="fullname" required />
+                <input type="email" placeholder="Email Address" name="email" required />
+                <input type="text" placeholder="Company Name" name="company-name" required />
                 <button type="submit" class="btn-primary">Submit</button>
                 </form>
             </section>
@@ -110,7 +110,10 @@
                 </div>
 
                 </div>
+                
             </section>
+
+            <button class="comps">Comparison ></button>
 
             <!-- Contact -->
             <section id="contact" class="section">
@@ -149,5 +152,75 @@
     <footer>
         <p>&copy; HUBLY CRM by Travis Abuton | <span id="currentYear"></span></p>
     </footer>
+    <dialog class="comparisons">
+        <section id="comparison-details" class="section">
+            <h3>Detailed Feature Comparison</h3>
+            <a id="closeBtn">❌</a>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>Basic</th>
+                            <th>Pro</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Core CRM Tools</td>
+                            <td class="check">✅</td>
+                            <td class="check">✅</td>
+                            <td class="check">✅</td>
+                        </tr>
+                        <tr>
+                            <td>Automations</td>
+                            <td>Limited</td>
+                            <td class="check">✅ Full</td>
+                            <td class="check">✅ Full</td>
+                        </tr>
+                        <tr>
+                            <td>Support Channel</td>
+                            <td>Email</td>
+                            <td>Email & Priority Chat</td>
+                            <td>Dedicated Account Manager</td>
+                        </tr>
+                        <tr>
+                            <td>Team Collaboration</td>
+                            <td class="xmark">❌</td>
+                            <td class="check">✅</td>
+                            <td class="check">✅</td>
+                        </tr>
+                        <tr>
+                            <td>Analytics Dashboard</td>
+                            <td class="xmark">❌</td>
+                            <td class="check">✅</td>
+                            <td class="check">✅</td>
+                        </tr>
+                        <tr>
+                            <td>Custom Integrations</td>
+                            <td class="xmark">❌</td>
+                            <td class="xmark">❌</td>
+                            <td class="check">✅</td>
+                        </tr>
+                        <tr>
+                            <td>Personalized Onboarding</td>
+                            <td class="xmark">❌</td>
+                            <td class="xmark">❌</td>
+                            <td class="check">✅</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td><button class="btn-outline">Choose Plan</button></td>
+                            <td><button class="btn-primary">Most Popular</button></td>
+                            <td><button class="btn-outline">Contact Sales</button></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </dialog>
 </body>
 </html>

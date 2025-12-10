@@ -179,3 +179,92 @@ footer{
 footer p{
     color:  #ffffff;
 }
+
+.comps {
+    width: 200px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-family: var(--font-heading);
+    transition: all 0.5s ease-in-out;
+    border-radius: 18px;
+}
+
+.comps:hover{
+    background: #525151ff;
+    color: #ffffff;
+}
+
+.comparisons{
+    border: none;
+    background: #ffffff;
+    /* height: 250px;
+    width: 250px; */
+    padding: 20px 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.comparisons h2{
+    text-align: center;
+}
+
+
+/*  for Modal Design */
+.comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.comparison-table th, .comparison-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee; /* Light line between rows */
+}
+
+.comparison-table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.comparison-table tbody tr:nth-child(even) {
+    background-color: #fafafa; /* Subtle zebra striping */
+}
+
+/* Feature column aligned left */
+.comparison-table td:first-child {
+    text-align: left;
+    font-weight: 500;
+}
+
+/* Style for Checkmarks/X's */
+.comparison-table .check {
+    color: green;
+    font-weight: bold;
+}
+
+.comparison-table .xmark {
+    color: red;
+}
+
+/* Style the buttons in the footer */
+.comparison-table tfoot td {
+    padding-top: 25px;
+    border-bottom: none;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

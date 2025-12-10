@@ -74,3 +74,28 @@ footer {
     color: #FAFAFA;
 }
 
+h1.dark-mode, h2.dark-mode, h3.dark-mode, p.dark-mode, a.dark-mode{
+    color: #ffffff;
+}
+
+body.active{
+    background: #000;
+}
+
+#mode{
+    position: fixed;
+    right:25px;
+    bottom: 25px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    background: #000;
+}
+
+#mode i {
+    color: #ffffff;
+}
+
+#mode i.active{
+    color: #000;
+}
